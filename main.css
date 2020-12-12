@@ -30,7 +30,13 @@
 
 
 body {
+  /* background-image: url("images/curtain.png");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  back */
   background-color: white;
+
   position: fixed;
   text-align: center;
 border: 0px solid red;

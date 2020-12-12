@@ -30,13 +30,10 @@
 
 
 body {
-  /* background-image: url("images/curtain.png");
-  background-repeat: no-repeat;
-  background-position: fixed;
-  background-size: cover;
-  back */
+   min-width:1000px;        /* Suppose you want minimum width of 1000px */
+   width: auto !important;  /* Firefox will set width as auto */
+   width:1000px;            /* As IE6 ignores !important it will set width as 1000px; */
   background-color: white;
-
   position: fixed;
   text-align: center;
 border: 0px solid red;

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Webcam Image Collage</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset='utf-8'>
+	<link rel="stylesheet" href="main.css" type="text/css" media="screen">
+	<script src="fabric.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+	<img src="images/curtain.png" id="curtain">
+	<section id="cameraContentarea">
+		<h1>
+			Holiday Photo Booth 😁
+		</h1>
+		<p id='fred2'>
+			Take the picture to be used for the holiday photo.
+		</p>
+		<div class="camera">
+			<video id="video" playsinline>Video stream not available.</video>
+			<button id="startButton">Take photo</button>
+		</div>
+		<!-- this canvas will be hidden. It stores the image from the camera -->
+		<canvas id="canvasPhoto">
+		</canvas>
+
+		<div class="output">
+			<img id="photo" alt="The screen capture will appear in this box.">
+		</div>
+
+		<p id='fred'>1) Take photo until happy! 2) Decorate photo <button id="startMixingButton">Decorate photo</button>
+	</section>
+
+	<section id="canvasMixArea">
+		<canvas id="c" width="800" height="600"></canvas>
+		<img src="images/1.png" id="p1" alt="" width="100px">
+		<img src="images/2.png" id="p2" alt="" width="100px">
+		<img src="images/3.png" id="p3" alt="" width="100px">
+		<img src="images/4.png" id="p4" alt="" width="100px">
+		<img src="images/5.png" id="p5" alt="" width="100px">
+		<img src="images/6.png" id="p6" alt="" width="100px">
+		<img src="images/7.png" id="p7" alt="" width="100px">
+		<img src="images/8.png" id="p8" alt="" width="100px">
+		<img src="images/9.png" id="p9" alt="" width="100px">
+		<p><a id="downloadButton" download="" href="">SAVE IMAGE</a><button id="returnButton">New Photo</button></p>
+<button id = "backButton">Layer Back ▼</button>
+<button id = "forwardButton">Layer Forward ▲ </button>
+	</section>
+	<script src="cameraCollage.js">
+	</script>
+
+</body>
+
+</html>

@@ -3,7 +3,7 @@ html, body{
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color: indigo !important;
+    background-color: #81C4A6 !important;
   }
 /*index page*/
 #logo-index{
@@ -80,7 +80,7 @@ html, body{
     /* height: 120px; */
     border-radius: 0 !important;
     height: 100px;
-    background-color: indigo !important;
+    background-color: #81C4A6 !important;
     border: none !important;
     /* background-color: tomato !important; */
     /* margin-bottom: 5px !important; */

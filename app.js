@@ -362,7 +362,7 @@ function download(){
     image.setAttribute('crossOrigin', 'anonymous');
     image.onload = function(){
       var link = document.createElement('a');
-        link.download = "ckonkol_PhotoBooth.png";
+        link.download = "PhotoBooth2020_Konkol.png";
         link.href = image.src;
         link.click();
     }

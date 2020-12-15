@@ -49,6 +49,7 @@ function cameraStart() {
       })
       .catch(function(err) {
         console.log("An error occurred: " + err);
+        alert(err);
       });
 
       camera.addEventListener('canplay', function(ev){
